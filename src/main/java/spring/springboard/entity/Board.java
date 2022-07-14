@@ -1,4 +1,4 @@
-package spring.springboard.entitiy;
+package spring.springboard.entity;
 
 import lombok.Data;
 
@@ -18,4 +18,8 @@ public class Board {
     private String title;
 
     private String content;
+
+    private String filename;
+
+    private String filepath;
 }
